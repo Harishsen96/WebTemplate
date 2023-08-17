@@ -1,0 +1,40 @@
+/* ImageCard.css */
+
+/* Container for the image card */
+.image-card-slider {
+    position: relative;
+    max-width: 100% /* Set the maximum width for the card */
+  }
+  
+  /* Background image for the card */
+  .card-image-slider {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* Content overlay for the card */
+  .card-content-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 300px;
+    /* padding: 20px; */
+    background-color:rgba(93, 16, 159, 0.7); /* Set the opacity here (0 to 1) */
+    color: white; /* Text color for the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the content text */
+  .card-content-slider h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content-slider p {
+    font-size: 14px;
+  }
+  

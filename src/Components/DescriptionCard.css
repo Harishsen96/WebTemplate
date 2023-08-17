@@ -1,0 +1,39 @@
+/* SpecialDesign.css */
+
+/* Container for the special design */
+.special-design-container {
+    display: flex; /* Use Flexbox to arrange the columns in a row */
+    justify-content: space-between; /* Distribute columns with equal space between them */
+    max-width: 1200px; /* Set the maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Individual column styles */
+  .column {
+    flex: 1; /* Each column takes equal space within the row */
+    background-color: #f0f0f0; /* Set a background color for the columns */
+    padding: 20px;
+    margin: 10px; /* Add some margin between columns */
+    border-radius: 10px; /* Apply rounded corners to the columns */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for a card-like effect */
+    background-color:#c6cf4a;
+  }
+  
+  /* Style for the content within each column */
+  .content {
+    text-align: center; /* Center the content horizontally within each column */
+    color: #333; /* Text color for the content */
+  }
+  
+  .content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 14px;
+  }
+  
+  .column:hover .content{
+    transform: scale(1.2);
+  }
